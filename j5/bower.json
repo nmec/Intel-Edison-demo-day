@@ -1,0 +1,21 @@
+{
+  "name": "j5",
+  "version": "1.0.0",
+  "authors": [
+    "Jono Warren <jonathan.warren@heyhuman.com>"
+  ],
+  "license": "Copyright 2014",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.css": "~3.0.2",
+    "jquery": "~2.1.1"
+  }
+}

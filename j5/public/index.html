@@ -1,0 +1,32 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>MMO Blocks</title>
+
+	<link rel="stylesheet" href="assets/vendor/normalize.css/normalize.css">
+	<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+	<div id="clients" class="clients">Connecting...</div>
+
+	<div id="canvas" class="canvas">
+		<div class="player" id="player"></div>
+	</div>
+
+	<div class="chat" id="chat">
+		<div id="chat-history" class="chat-history"></div>
+		<form id="chat-input" class="chat-input">
+			<input type="text">
+			<button type="submit">Send</button>
+			<em>Commands: <code>up</code>, <code>down</code>, <code>left</code>, <code>right</code></em>
+		</form>
+	</div>
+
+	<!-- Scripts -->
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="assets/vendor/jquery/dist/jquery.min.js"></script>
+	<script src="assets/app.js"></script>
+
+</body>
+</html>

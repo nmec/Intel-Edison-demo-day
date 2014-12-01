@@ -1,0 +1,46 @@
+.clients {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 10px;
+}
+
+.canvas {
+	border: 1px solid #4a4a4a;
+	width: 640px;
+	height: 400px;
+	margin: 2rem auto 1rem;
+	position: relative;
+}
+
+.point, 
+.player {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+}
+
+.player {
+	border-radius: 20px;
+	background: #444;
+	left: 320px;
+	top: 200px;
+	z-index: 2;
+}
+
+
+.chat {
+	width: 640px;
+	margin: 0 auto;
+}
+
+.chat-history {
+	border: 1px solid #4a4a4a;
+	height: 50px;
+	overflow: scroll;
+}
+
+.chat input {
+	margin: 0.5rem 0;
+	width: 580px;
+}
